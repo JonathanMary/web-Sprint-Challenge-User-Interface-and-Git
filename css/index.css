@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0; Hide the boxes*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    /*  show the boxes */
+    /*border: 1px solid black;*/
 }
 
 html, body {
@@ -143,4 +145,71 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Header Styling */
+header div {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 14px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+#banner {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Boxes coloring*/
+#box1 {background-color: teal;}
+#box2 { background-color: gold;}
+#box3 { background-color: cadetblue;}
+#box4 { background-color: coral;}
+#box5 { background-color: crimson;}
+#box6 { background-color: forestgreen;}
+#box7 { background-color: darkorchid;}
+#box8 { background-color: hotpink;}
+#box9 { background-color: indigo;}
+#box10 { background-color: dodgerblue;}
+
+/* About Page */
+.about-middle{
+    display: flex;
+}
+.about-middle img {
+    width: 100%;
+    margin-bottom: 6px;
+}
+.about-top{
+    border-bottom: 1px dashed black;
+    padding-bottom: 1%;
+}
+.bloc {
+    /*display: flex;
+    flex-direction: column; */
+    margin: 1% 0.5%;
+    padding: 1% 0;
+    border-bottom: 1px dashed black;
+}
+#last-section {
+    margin: 1% 0;
+}
+.learn-button {
+    margin: 15px 0;
+}
+.learn-button a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
 }
