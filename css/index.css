@@ -194,13 +194,14 @@ header a {
     padding-bottom: 1%;
 }
 .bloc {
-    margin: 1% 0.5%;
+    margin: 1% 1.5%;
     padding: 1% 0;
     border-bottom: 1px dashed black;
 }
 #last-section {
     margin: 1% 0;
 }
+
 /* Buttons */
 .learn-button {
     margin: 15px 0;
