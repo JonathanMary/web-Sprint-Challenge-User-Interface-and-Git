@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0; Hide the boxes*/
+	/*border: 0; Hide the box model*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /*  show the boxes */
+    /*  show the box model */
     /*border: 1px solid black;*/
 }
 
@@ -155,7 +155,7 @@ header div {
 }
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Display the header nav buttons with equal space on both sides */
     align-items: flex-end;
     width: 100%;
     font-size: 14px;
@@ -183,7 +183,7 @@ header a {
 
 /* About Page */
 .about-middle{
-    display: flex;
+    display: flex; /* Put together the two bloc class elements */
 }
 .about-middle img {
     width: 100%;
@@ -194,8 +194,6 @@ header a {
     padding-bottom: 1%;
 }
 .bloc {
-    /*display: flex;
-    flex-direction: column; */
     margin: 1% 0.5%;
     padding: 1% 0;
     border-bottom: 1px dashed black;
