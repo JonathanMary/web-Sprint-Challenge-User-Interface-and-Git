@@ -201,6 +201,7 @@ header a {
 #last-section {
     margin: 1% 0;
 }
+/* Buttons */
 .learn-button {
     margin: 15px 0;
 }
@@ -210,4 +211,9 @@ header a {
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
+}
+.learn-button a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
 }
